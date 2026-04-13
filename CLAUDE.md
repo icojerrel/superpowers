@@ -14,7 +14,7 @@
 
 ```
 superpowers/
-├── skills/                    # 16 core skills (the product)
+├── skills/                    # 17 core skills (the product)
 ├── lib/                       # JavaScript utilities (skill loading/validation)
 ├── hooks/                     # SessionStart hook scripts
 ├── commands/                  # Slash command definitions (/brainstorm, etc.)
@@ -29,7 +29,7 @@ superpowers/
 └── plugin.json                # Plugin metadata (version, description)
 ```
 
-### The 16 Skills
+### The 17 Skills
 
 Each skill lives in `skills/<skill-name>/SKILL.md`:
 
@@ -51,6 +51,7 @@ Each skill lives in `skills/<skill-name>/SKILL.md`:
 | `finishing-a-development-branch` | Merge/PR decision workflow |
 | `skills-enhancement` | Skill quality analysis and improvement |
 | `writing-skills` | TDD-based skill creation framework |
+| `superpowers-development` | Contributing to this repo — skill format, Iron Law, what goes where |
 
 ---
 
